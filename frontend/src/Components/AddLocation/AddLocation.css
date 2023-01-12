@@ -1,0 +1,206 @@
+ .maincontainer {
+    width: 100%;
+  
+
+
+ }
+
+ .addlocationbtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .addlocationbtn button {
+    font-size: 1.1rem;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    padding: 10px 30px;
+    background-color: #6e5193;
+    border: none;
+    border-radius: 10px;
+ }
+
+
+
+ .addlocationbtn2 button {
+    font-size: 0.9rem;
+    color: #000000;
+    letter-spacing: 1px;
+    color: white;
+    padding: 8px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 1px;
+ }
+
+ .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:static; 
+    scroll-behavior: smooth;
+ }
+
+ .totalForm {
+   width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgba(250, 248, 248, 0.718);
+    position: absolute;
+    top: 20%;
+    box-shadow: 0px 0px 1px rgb(85, 85, 85);
+    border-radius: 10px;
+ }
+
+ .headingcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    align-items: center;
+ }
+
+ .headingcontainer img {
+    width: 30px;
+    height: 30px;
+ }
+
+ .addLocation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+ }
+
+ .addLocation input {
+    border-radius: 5px;
+    width: 440px;
+    height: 40px;
+    padding: 0px 20px;
+
+ }
+
+ .Location {
+
+    display: flex;
+
+    gap: 40px;
+
+ }
+
+ .Location input {
+
+    border-radius: 5px;
+
+    width: 200px;
+
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.811);
+
+ }
+
+
+ .anchor {
+    padding: 7px 15px;
+    color: white;
+    background-color: #6e5193;;
+    border: none;
+    border-radius: 5px;
+ }
+
+
+
+
+ /* location card css */
+
+ .locationcard {
+    width: 100%;
+
+ }
+
+ .locationcardcontainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr ;
+    gap: 30px;
+ }
+
+
+ .card {
+    display: flex;
+    gap: 20px;
+    box-shadow: 0px 0px 2px rgb(78, 78, 78);
+    padding: 10px;
+ }
+
+ .cardimage {
+   width: 300px;
+   height: 220px;
+ 
+ }
+
+ .cardimage img {
+    width: 100%;
+    height: 100%;  
+ }
+
+
+
+ .carddata {
+   width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    overflow: hidden;   
+ }
+
+ .carddata h2{
+   padding-bottom: 10px;
+ }
+
+ /* .carddata p{
+   width: 250px;
+ } */
+
+
+ .locationname {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 10px;
+ }
+
+
+ .locationimage{
+   width: 20px;
+   
+ }
+
+ .locationimage img{
+   width: 20px;
+   
+ }
+
+
+ .locationviewbutton {
+    padding-top: 20px;
+ }
+
+ .locationviewbutton button {
+    font-size: 1rem;
+    color: white;
+    padding: 10px 25px;
+    background-color:#6e5193;;
+    border: none;
+    border-radius: 10px;
+ }

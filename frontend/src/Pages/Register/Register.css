@@ -1,0 +1,95 @@
+.register{
+   width: 100%;
+   height: 90vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding:50px 100px;
+   background-color: #e5e5e5;
+
+
+}
+
+.registercontainer{
+   width: 30vw;
+   display: flex;
+   gap: 30px;
+   flex-direction: column;
+   align-items: center;
+   box-shadow:0px 0px 2px rgb(47, 46, 46);
+   border-radius: 5px;
+   text-align: center;
+   padding:50px 0px;
+}
+
+.registercontainer form{
+   display: flex;
+   flex-direction: column;;
+   justify-content: center;
+   align-items: center;
+   gap: 35px;
+}
+
+
+.registercontainer form .email{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 5px;
+}
+
+
+.registercontainer form .email label{
+   font-size: 1.2rem;
+   letter-spacing: 2px;
+   font-weight: 400;
+}
+
+
+
+.registercontainer form .email input{
+   width: 400px;
+   padding: 15px 30px;
+   font-size: 1rem;
+   background-color: #e5e5e5;
+}
+
+
+
+
+
+
+
+
+.password{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 5px;
+   
+}
+
+
+.password label{
+  font-size: 1.2rem
+}
+
+.password input{
+   width:400px;
+   padding: 15px 30px;
+   font-size: 1rem;
+   background-color: #e5e5e5;
+}
+
+
+
+.Registerbtn button{
+   width: 400px;
+   padding: 10px 30px;
+   font-size: 1.2rem;
+   background-color:#6e5193;;
+   border: none;
+   color: white;
+}
+

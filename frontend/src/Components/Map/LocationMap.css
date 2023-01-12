@@ -1,0 +1,12 @@
+.location {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 0px 120px;
+   justify-content: space-around;
+   gap: 30px;
+}
+.imagelogo img {
+   width: 50px;
+   border-radius: 50%;
+}

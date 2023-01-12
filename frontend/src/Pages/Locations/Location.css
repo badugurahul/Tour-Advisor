@@ -1,0 +1,11 @@
+.Locationspage {
+   width: 100%;
+   min-height: 90vh;
+   display: flex;
+   flex-direction: column;
+   padding: 20px 120px;
+   gap: 20px;
+   background-color: #e5e5e5;
+   /* justify-content: center; */
+
+}
